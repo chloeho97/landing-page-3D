@@ -1,0 +1,39 @@
+ /*#photos-services{
+	width : 200px;
+	height : 200px; 
+	border: 0px solid black;
+	object-fit: cover;
+	box-shadow : 5px 10px 15px 1px grey;
+	display:flex;
+}
+
+.services
+{	text-align:center;
+	display:flex;
+    justify-content: space-around;
+}
+
+#nos-services
+{text-align:center;}*/
+
+.titre-services {
+	text-align:center;
+}
+
+.card
+{background-color:white;
+text-align : center;
+padding:8px;
+border-radius:6px;
+}
+
+.cards{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap : 8px;
+
+}
+
+.card img {
+	width:80%;
+}

@@ -1,0 +1,33 @@
+/*#rectangle{
+    width:200px;
+    height:50px;
+    border:solid;
+    padding: 24px;
+ 	width: 20%;
+ 	height: 10%;
+ 	margin: 16px auto;
+  	border-radius: 6px;
+  	box-shadow: 1px 1px 5px 2px #000000b5;
+    background-color: white;
+}*/
+
+p{
+	font-size: small;
+}
+
+#contactez-nous 
+{text-align:center;
+background-color:pink;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+/*#contactez-nous {
+  background-color: pink;
+	text-align:center;
+	flex-direction: column;
+	align-items: center;
+ padding-bottom: 35px;
+padding-top:35px;
+}*/
+

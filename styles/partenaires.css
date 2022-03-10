@@ -1,0 +1,14 @@
+.partenaires{
+	height : 80px; 
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#partenaires-id{
+	text-align:center;
+}
+
+.partenaires img {
+	width: 180px;
+}

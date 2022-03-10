@@ -1,0 +1,59 @@
+.end-banner {
+	background-color:grey;
+	color:white;
+	padding: 0;
+	list-style: none;
+	padding-top:30px;
+	margin:0;
+	font-size:small;
+	font-weight: bolder;	
+	display:flex;
+	justify-content: flex-start;
+}
+
+.end-banner li {
+	display:inline;
+	margin: 0 16px;}
+
+
+
+
+.icon-banner {
+	list-style: none;
+	padding-bottom:30px;
+}
+
+/*a tous les éléments de la classe list-inline, tu leurs appliques ça*/
+.icon-banner li {
+	display:inline;
+	margin: 0 16px;
+	color:white;
+	font-size:30;
+}
+
+
+.fa-brands 
+	{font-size : 30px;
+	color : white;
+}
+
+.fa-solid 
+	{font-size : 30px;
+	color : white;
+}
+
+
+.fa-brands:hover {
+	color : black;
+}
+
+.fa-solid:hover {
+	color : black;
+}
+
+
+.end-banner{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
