@@ -9,12 +9,17 @@
 </head>
 <body>
 
+<br>
+<br>
+<br>
+<br>
+
 <div class="menu">
 	 <div class="menu-gauche">
 		<ul>
-			<li> ACCUEIL </li>
-			<li> QUI SOMMES-NOUS </li>
-			<li> SERVICES </li>
+			<li class="menu-accueil"> ACCUEIL </li>
+			<li class="menu-qui-sommes-nous"> QUI SOMMES-NOUS </li>
+			<li class="menu-services"> SERVICES </li>
 		</ul> 
 	</div>
 
@@ -22,26 +27,31 @@
 		<img src="images/logo-anormal.png" alt="logo" id="logo" />
 	</div>
 
-	 <div class="menu-droite">
+	<div class="menu-droite">
 		<ul>
-			<li> PROJETS </li>
-			<li> BLOGS </li>
-			<li> CONTACTS </li>
+			<li class="menu-projet"> PROJETS </li>
+			<li class="menu-blog"> BLOG </li>
+			<li class="menu-contacts"> CONTACTS </li>
 		</ul> 
 	</div>
 </div>
 
+
 	<!-- banner -->
 	<div id="banner">
-		<h1 class="banner" id="banner-1"> 
-			<BR>
-		Animation, modélisation et impression 3D</h1>
-		<p class="banner" id="banner-2">Nous proposons aussi tout un ensemble de services numériques permettant la création de contenu en trois dimensions. Avec nos studios entièrement composés de modélisateurs et animateurs 3D aguerris, nous pouvons répondre à toute forme de demande créative. Grâce à nos logiciels professionnels (Houdini, 3ds Max, Maya…) plus aucun projet n’est impossible.
-			<BR>
-			<BR>
-			<BR>
-		Grâce à notre offre en infographie 3D, vous pourrez laisser libre cours à vos idées les plus folles. Nos yeux et nos logiciels numériques sont à votre entière disposition le temps d’une évasion créative. Partagez-nous vos attentes et nous nous occuperons de modeler votre projet à l’image de votre univers.</p>
-			<BR>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		<h1 class="banner" id="banner-1"> Animation, modélisation & impression 3D </h1>
+		<br>
+		<br>
 		<a href="#" class="btn-white">Un projet ? Contactez-nous </a>
 	</div>
 
@@ -56,7 +66,7 @@
 				<h3>Animation 3D</h3>
 			</div>
 			<div class="card">
-				<img src="images/modelisation3D.jpg" alt="Modélisation 3D" id="photos-services">
+				<img src="images/modelisation3D.jpeg" alt="Modélisation 3D" id="photos-services">
 				<h3>Modélisation 3D</h3>
 				</div>
 			<div class="card">
@@ -71,10 +81,10 @@
 <br>
 
 	<div class="projets">
-	<img src="images/projet1.jpg" alt="projet de modélisation 1">
-	<img src="images/projet2.jpg" alt="projet de modélisation 2">
-	<img src="images/projet3.jpg" alt="projet de modélisation 3">
-	<img src="images/projet4.jpg" alt="projet de modélisation 4">
+		<img src="images/projet1.jpg" alt="projet de modélisation 1">
+		<img src="images/projet2.jpg" alt="projet de modélisation 2">
+		<img src="images/projet3.jpg" alt="projet de modélisation 3">
+		<img src="images/projet4.jpg" alt="projet de modélisation 4">
 	</div>
 
 <br>
@@ -94,37 +104,26 @@
 <br>
 <br>
 
-<!-- <div id="contactez-nous"> 
-
-	<p> NOM ET PRENOM</p>
-	<div id="rectangle"></div>
-	<p> VOTRE ADRESSE MAIL</p>
-	<div id="rectangle"></div>
-	<p> VOTRE MESSAGE </p>
-	<div id="rectangle"></div>
-</div> -->
-
-
 <div id="contactez-nous">
 		<H2>CONTACTEZ-NOUS</H2>
-	<H3> ET NOUS VOUS REPONDRONS DANS LES PLUS BREFS DELAIS <h3>
-		<BR>
+		<H3> ET NOUS VOUS REPONDRONS DANS LES PLUS BREFS DELAIS <h3>
+<br>
 
 
 <form id="formulaire-de-contact" action="#" method="POST" enctype="multipart/form-data">
   <div class="row">
-    <label class="required" for="name">Votre nom et prénom:</label><br />
-    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <label class="required" for="name">Votre nom et prénom:</label><br>
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br>
     <span id="name_validation" class="error_message"></span>
   </div>
   <div class="row">
     <label class="required" for="email">Votre adresse mail:</label><br />
-    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br>
     <span id="email_validation" class="error_message"></span>
   </div>
   <div class="row">
-    <label class="required" for="message">Votre message:</label><br />
-    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <label class="required" for="message">Votre message:</label><br>
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br>
     <span id="message_validation" class="error_message"></span>
   </div>
     <input id="submit_button" type="submit" value="Send email"/>
@@ -136,16 +135,32 @@
 
 <div class="ad-banner"> 
 	<div> 
-		<h3> A PROPOS DE NOUS </h3>
-		<p> xxxx </p>	
+		<h3 class="description"> ARTICLES RECENTS </h3>
+			<ul class="articles-ad-banner">
+				<li id="article1"> Quel avenir pour l'impression 3D ? </li>	
+				<li id="article2"> La modélisation 3D pour les marques : 5 avantages pour la conception de vos projets </li>	
+				<li id="article3"> Impression 3D pour les marques : un tournant pour la communication ?  </li>	
+				<li id="article4"> Animation 3D : un métier d'avenir</li>	
+			</ul>
+
+<br>
+<br>
+		<H3 class="description">ANORMAL 3D</H3>
+			<p class="description">Anormal est un studio composé de modeleurs et animateurs 3D expérimentés, à votre écoute et votre service pour faire vivre tous vos projets, même les plus fous. En effet, grâce à nos logiciels professionnels (3ds Max, Blender, Maya,etc.), aucun projet n'est impossible.
+			<BR>
+			<BR>
+			<BR>
+			Libérez vos idées les plus folles. Anormal vous accompagne tout le long de vos projets, de la modélisation à l'animation, ou encore même à l'impression 3D. Notre studio 360 vous permet ainsi de réellement donner vie à vos projets, autant numériquement que matériellement. Faites-nous part de vos attentes et nous façonnerons votre projet à l'image de votre univers et vos attentes. 
+			</p>
 	</div>
-	<div> 
-		<h3> ARTICLES RECENTS </h3>
-		<p> xxxx </p>	
-	</div>
-	<div> 
+	<div class="coordonnees"> 
 		<h3> NOS COORDONNEES </h3>
-		<p> xxxx </p>	
+			<p class="text-ad-banner"> 40 Av. des Terroirs de France,75012 PARIS</p>	
+			<p class="text-ad-banner"> FRANCE</p>	
+			<p class="text-ad-banner">📞 +33711890087</p>
+			<p class="text-ad-banner">📧 contact@anormal.fr </p>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10505.4896777713!2d2.3890695!3d48.8320346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd55967c7aabdb62!2sKedge%20Business%20School%20-%20Campus%20Paris!5e0!3m2!1sfr!2sfr!4v1647000752450!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe class="map-responsive">
 	</div>
 </div>
 
@@ -154,10 +169,9 @@
 
 <!-- footer -->
  <div class="end-banner">
-
  		<div class="bandeau-end">
 			<ul class='list-bandeau"'>
-				<li> @3D anormal 2022 </li>
+				<li> @3D anormal 2022 - Tous droits réservés</li>
 				<li> MENTIONS LEGALES </li>
 				<li> PLAN DU SITE </li>
 				<li> POLITIQUE DE COOKIES (UE) </li>
@@ -167,25 +181,19 @@
 		<div>
 			<ul class="icon-banner">
 				<li>
-					<a href="http://facebook.com"> 
-						<i class="fa-brands fa-facebook-square"></i> 
+					<a href="http://facebook.com"> <i class="fa-brands fa-facebook-square"></i> 
 					</a>
 				</li>
 				<li>
-					<a href="http://twitter.com"> 
-						<i class="fa-brands fa-twitter-square"></i>
-					 </a> 
+					<a href="http://twitter.com"> <i class="fa-brands fa-twitter-square"></i>
+					</a> 
 				</li>
 				<li>
-					<a href="mailto:ainhi.ho@kedgebs.com"> 
-						<i class="fa-solid fa-envelope"></i>
+					<a href="mailto:ainhi.ho@kedgebs.com"><i class="fa-solid fa-envelope"></i>
 					</a>
 				</li>	
 			</ul>
 		</div>
-
-</div>
-
 
 
 </body>

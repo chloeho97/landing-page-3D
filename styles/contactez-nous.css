@@ -11,16 +11,18 @@
     background-color: white;
 }*/
 
-p{
+p {
 	font-size: small;
 }
 
-#contactez-nous 
-{text-align:center;
-background-color:pink;
-padding-top:10px;
-padding-bottom:10px;
+#contactez-nous {
+  text-align:center;
+  background-color:pink;
+  padding-top:10px;
+  padding-bottom:10px;
 }
+
+
 
 /*#contactez-nous {
   background-color: pink;

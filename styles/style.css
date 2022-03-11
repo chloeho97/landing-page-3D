@@ -1,6 +1,8 @@
 /*police google -> ne pas prendre les balises styles*/
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
+@import url("reasearchbar.css");
+
 @import url("menu.css");
 
 @import url("banner.css");
@@ -22,13 +24,18 @@ a	{
 	text-decoration:none;
 }
 
-body { font-family: 'Montserrat', sans-serif;
-margin:0;
-text-decoration: none}
+body { 
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	text-decoration: none
 }
 
-h1,h2,h3 {
-	font-family: 'Comfortaa', cursive; 
+h1,h2,h3,li,p {
+	font-family: 'Comfortaa', cursive;text-decoration: none; 
+}
+
+p {
+	font-size:medium;
 }
 
 

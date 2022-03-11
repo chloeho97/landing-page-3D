@@ -8,16 +8,20 @@
 }
 
 
-.banner{
+.banner {
 	text-shadow : 1px 3px 1px black;
 	text-align :center;
 	margin-left:900px;
 	margin-right:150px;
 }
 
-#banner-1 {font-size:xx-large;}
+#banner-1 {
+	font-size:xx-large;
+}
 
-#banner-2 {font-size:medium;}
+#banner-2 {
+	font-size:medium;
+}
 
 .btn-white{
 	color: black ;
@@ -35,7 +39,6 @@
 	transition:1s;
 	width: 20%;
 	margin-left:945px;
-
 }
 
 /*pour animation, changer un statut, changer une propriété au bouton = hover -> survoler*/
